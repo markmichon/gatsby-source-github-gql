@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-source-github-gql",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description":
+    "Gatsby Source plugin for pulling in data from the GitHub GraphQL api",
+  "author": "Mark Michon <hello@markmichon.com>",
+  "keywords": ["gatsby", "gatsby-source", "github", "graphql"],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "graphql-request": "^1.4.1",
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
